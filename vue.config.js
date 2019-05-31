@@ -28,22 +28,11 @@ module.exports = {
         //配置代理
         proxy: {
 
-            '/wayio/v2/': {
-                //target: 'http://47.95.197.120:1023/',
-                //target: 'http://192.168.5.17:8080/wayio/v2/',
-                target: 'http://192.168.2.23:8082/',
+            '/api': {
+                target: 'http://192.168/',
                 secure: false,
                 changeOrigin: true
-            },
-            '/wayio/': {
-                //target: 'http://47.95.197.120:1023/',
-                //target: 'http://192.168.4.42:8083/',
-                target: 'http://192.168.2.23:8083/',
-                //target: 'https://platformuat.way.io',
-                secure: false,
-                changeOrigin: true
-            },
-
+            }
         }
     },
     pluginOptions: {
