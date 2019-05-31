@@ -1,0 +1,38 @@
+{
+  "name": "vue3platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1",
+    "axios": "^0.18.0",
+    "vue-axios": "^2.1.4",
+    "echarts": "^4.2.1-rc.3",
+    "element-ui": "^2.8.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "jspdf": "^1.5.3",
+    "material-design-icons-iconfont": "^4.0.5",
+    "@mdi/font": "^3.5.95",
+    "vee-validate": "^2.1.7",
+    "vue-i18n": "^8.0.0",
+    "vue-perfect-scrollbar": "^0.1.0",
+    "vuedraggable": "^2.20.0",
+    "vuetify": "^2.0.0-alpha.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-unit-jest": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
